@@ -1,0 +1,23 @@
+{
+    "name": "compiled-import-bug",
+    "version": "1.0.0",
+    "repository": "github:redraskal/compiled-import-bug",
+    "author": "redraskal <ben@ryben.dev>",
+    "license": "MIT",
+    "dependencies": {
+        "@compiled/react": "^0.10.4",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "@compiled/parcel-optimizer": "^0.1.1",
+        "@compiled/parcel-resolver": "^0.1.1",
+        "@compiled/parcel-transformer": "^0.8.1",
+        "parcel": "^2.5.0",
+        "prettier": "^2.6.2"
+    },
+    "scripts": {
+        "start": "parcel public/index.html",
+        "build": "parcel build public/index.html"
+    }
+}

@@ -1,0 +1,35 @@
+@import "https://rsms.me/inter/inter.css";
+
+* {
+    font-family: -apple-system, "Inter", system-ui;
+}
+
+@supports (font-variation-settings: normal) {
+    * {
+        font-family: -apple-system, "Inter var", system-ui;
+    }
+}
+
+body,
+#root {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: hsl(220, 5%, 12%);
+
+    --button-default: hsl(212, 100%, 60%);
+    --button-default-active: hsl(212, 100%, 65%);
+
+    --text: white;
+}
+
+* {
+    color: var(--text);
+}
+
+body {
+    background: var(--background);
+}
