@@ -21,7 +21,7 @@ body,
     --background: hsl(220, 5%, 12%);
 
     --button-default: hsl(212, 100%, 60%);
-    --button-default-active: hsl(212, 100%, 65%);
+    --button-default-hover: hsl(212, 100%, 65%);
 
     --text: white;
 }

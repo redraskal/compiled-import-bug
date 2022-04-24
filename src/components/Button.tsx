@@ -8,7 +8,7 @@ export const Button = styled.button`
     font-weight: 500;
 
     :hover {
-        background: var(--button-default-active);
+        background: var(--button-default-hover);
     }
 
     :active {
